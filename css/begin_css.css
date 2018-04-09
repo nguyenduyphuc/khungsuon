@@ -1,0 +1,260 @@
+/* ==========================================================================
+   Nguyen Trong Nghia
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 15px;
+    background: #fdfdfd;
+    font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.wraper{
+  margin-bottom: 1px;
+}
+.logo{
+  width:250px;
+  float:left;
+}
+.location{
+  width:200px;
+  margin-left: 20px;
+  margin-top: 27px;
+  float:left;
+  display: inline-block;
+}
+.loct{
+  margin-top:-2px;
+}
+.search-form{
+  float: left;
+  margin-right: 7px;
+  margin-top: 25px;
+}
+#search{
+  border:1px solid #cdcdcd;
+  padding:5px;
+}
+.button{
+width: 60px;
+height: 30px;
+}
+.lienhe{
+  margin-left: 20px;
+  width: 200px;
+  float: left;
+}
+.btn-info{
+  background-color: #f61520;
+}
+.btn{
+      margin-top: 20px;
+}
+.nav li{
+  float: left;
+  display: block;
+  position: relative;
+}
+.nav li a{
+  color: white;
+}
+.tab li a{
+  color: black;
+}
+.nav .ds{
+  width: 200px !important;
+  padding-left: 20px;
+}
+.nav .ds .sp{
+  float: left;
+  width: 200px;
+}
+.nav ul li:hover{
+  color:lightblue;
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.sub-menu{
+  float: left;
+  margin:0px auto;
+  position: absolute;
+  text-align: left;
+  z-index: 1;
+  background-color: #333;
+  padding: 10px 5px 10px 5px;
+  border:1px solid #777777;
+  border-top: none;
+
+}
+.mn1, .mn2, .mn3, .mn4, .mn5, .mn6{
+  display: none;
+}
+.nav li: hover .sub-menu{
+  display: block;
+}
+#myCarousel{
+  position: relative;
+}
+.slidee{
+  padding: 0;
+  width: 760px;
+}
+.qc{
+  margin-left:-15px;
+  margin-top: 10px;
+}
+.qc1:hover{
+ opacity: 0.5;
+}
+.qc2:hover{
+ opacity: 0.5;
+}
+.hangsp1{
+  padding: 0px;
+  margin-top: 5px;
+}
+.hangsp2{
+  padding: 0px;
+}
+.hangsp1 ul{
+  list-style: none;
+
+}
+.hangsp1  ul li{
+    float: left;
+    border:1px solid #cdcdcd;
+    margin-left: 0px;
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+.hangsp1 ul li:hover{
+  opacity: 0.5;
+}
+.hangsp2 ul{
+  list-style: none;
+
+}
+.hangsp2  ul li{
+    float: left;
+      border:1px solid #cdcdcd;
+      margin-left: 0px;
+    margin-right: 7px;
+     margin-bottom: 5px;
+
+}
+/*.ta{
+  margin-left: 110px; 
+}*/
+.hangsp2 ul li:hover{
+  opacity: 0.5;
+}
+.muc{
+  background-color: #cdcdcd;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.phone ul{
+  list-style: none;
+}
+.phone ul li{
+  float:left;
+   margin-bottom: 5px;
+   margin-right: 5px;
+   margin-left: 0px;
+   text-align: center;
+}
+.phone ul li:hover{
+  opacity: 0.5;
+}
+.tieude{
+  background-color: #66ccff;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.hotro{
+  padding-left:  5px;
+}
+.hotro ul{
+  list-style: none;
+  padding-left: 0px;
+}
+.footer{
+  background-color: #006699;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: : 5px;
+}
+.panel-default{
+      width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.panel{
+  right:15px;
+      background-color: #cdcdcd;
+}
+form {
+    margin: 0
+}
+a {
+	color: #333; 
+    cursor: pointer
+}
+a, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #0076a1;
+}
+input, input:focus {
+    outline: none
+}
+
+
+
+body,h1,h2,h3,h4,p,a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+ /* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+}
